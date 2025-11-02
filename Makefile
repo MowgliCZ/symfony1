@@ -8,6 +8,7 @@ help:
 
 run:
 	docker compose up -d
+	@echo "App running here: http://localhost:8000/"
 
 run-db:
 	docker compose up -d database
